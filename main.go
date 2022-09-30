@@ -120,7 +120,7 @@ func deleteBook(w http.ResponseWriter, r *http.Request) {
 func main() {
 	r := mux.NewRouter()
 
-	db, err = sql.Open("mysql", "root:@/db_books")
+	db, err = sql.Open("mysql", "root:@/yourDBName")
 	if err != nil {
 		panic(err.Error())
 	}
