@@ -13,8 +13,8 @@ import (
 )
 
 type Books struct {
-	ID			string		`json:"id"`
-	Title 		string		`json:"title"`
+	ID	string	`json:"id"`
+	Title 	string	`json:"title"`
 }
 
 var db *sql.DB
